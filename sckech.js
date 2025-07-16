@@ -1,3 +1,13 @@
+/*
+Comision: Lisandro 
+Eduardo Medrano:93096/6
+Alex Palomeque: 93077/3
+Luz Pereyra: 92816/1
+Jimena Aylén Marazzi: 93043/2
+Micaela castañeda: 93566/6
+María Elena Molina: 94803/4
+*/
+
 let particles = [];
 let tam = 27;
 let fondo, azul, rojo, amarillo, verde, marron, negro;
