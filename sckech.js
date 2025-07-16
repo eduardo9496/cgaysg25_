@@ -54,19 +54,19 @@ createCanvas(720, 1280);
   // ==================== FIGURAS ====================
   let square = [
   // cuadrado rojo
-    { x:52 , y: random(100, 1000) , w: 66,h: 66,ang : 35 + random(1,5) ,color:  '#D14A1C', img: rojo},
-    { x:573 , y: random(100, 1000), w: 40,h: 40,ang : 117 + random(1,5)  ,color:  '#D14A1C', img: rojo},
-    { x:random(100,500) , y:506 , w: 64,h: 64,ang : 72 + random(1,5)  ,color:  '#D14A1C', img: rojo},
-    { x:random(100, 1000) , y: 783 , w: 85,h: 85,ang : 21 + random(0,5),color:  '#D14A1C', img: rojo},
+    { x:52 , y: random(100, 1000) , w: 66,h: 66,ang : 35 + random(1,5) , img: rojo},
+    { x:573 , y: random(100, 1000), w: 40,h: 40,ang : 117 + random(1,5)  , img: rojo},
+    { x:random(100,500) , y:506 , w: 64,h: 64,ang : 72 + random(1,5)  , img: rojo},
+    { x:random(100, 1000) , y: 783 , w: 85,h: 85,ang : 21 + random(0,5), img: rojo},
   // cuadrado amarillo
-    { x:random(100, 1000) , y:130 , w: 33,h: 33,ang : 29 + random(0,5) ,color:  '#F9C913', img: amarillo},
-    { x:74 , y:105 , w: 19,h: 19,ang : 33 + random(0,5),color:  '#F9C913', img: amarillo},
+    { x:random(100, 1000) , y:130 , w: 33,h: 33,ang : 29 + random(0,5) , img: amarillo},
+    { x:74 , y:105 , w: 19,h: 19,ang : 33 + random(0,5), img: amarillo},
   // cuadrado negro
-    { x:random(100, 1000) , y:17 , w: 30,h: 30,ang : 35 + random(0,5),color:  '#000000',img: negro},
+    { x:random(100, 1000) , y:17 , w: 30,h: 30,ang : 35 + random(0,5), img: negro},
   // cuadrado azul
-    { x:434 , y:random(100, 1000)  , w: 241,h:241 ,ang : 45 + random(0,5),color:  '#031351', img: azul},
-    { x:640 , y:random(100, 1000)  , w: 45,h:45 ,ang : 45 + random(0,5),color:  '#031351', img: azul},
-    { x:random(100, 1000) , y:599 , w: 45,h:45 ,ang : 45 + random(0,5),color:  '#031351', img: azul},
+    { x:434 , y:random(100, 1000)  , w: 241,h:241 ,ang : 45 + random(0,5), img: azul},
+    { x:640 , y:random(100, 1000)  , w: 45,h:45 ,ang : 45 + random(0,5), img: azul},
+    { x:random(100, 1000) , y:599 , w: 45,h:45 ,ang : 45 + random(0,5), img: azul},
   
   ];
   let rectangle = [
